@@ -1,0 +1,481 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.intro-container {
+    position: absolute;
+    width: 100%;
+    height: 801px;
+    left: 0px;
+    top: 0px;
+    background-image: url('../images/slide-1.jpg');
+    background-position: center;
+
+
+}
+
+.intro-container h1 {
+    position: absolute;
+    height: 56px;
+    left: 511px;
+    top: 254px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.intro-container p {
+    position: absolute;
+    height: 28px;
+    left: 379px;
+    top: 348px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-1 {
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    left: 511px;
+    top: 431px;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid white;
+}
+
+.btn-2 {
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    left: 803px;
+    top: 431px;
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+}
+
+.bg-img {
+    position: absolute;
+    width: 483px;
+    height: 306px;
+    left: 185px;
+    top: 961px;
+    background-image: url('../images/about-img.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.text-container h1 {
+    position: absolute;
+    height: 42px;
+    left: 756px;
+    top: 980px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+.text-container p {
+    position: absolute;
+    width: 521px;
+    height: 299px;
+    left: 756px;
+    top: 992px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.vector-container {
+    position: absolute;
+    background-image: url('../images/Vector\ Shape.png');
+    background-position: center;
+    height: 771px;
+    width: 100%;
+    left: 0px;
+    top: 1410px;
+    border-radius: 0px;
+
+
+}
+
+.box1 h4 {
+    border-radius: 50%;
+    width: 99px;
+    height: 99px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 240px;
+    top: 240px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #37C1FF;    
+}
+
+.box2 h4 {
+    border-radius: 50%;
+    width: 99px;
+    height: 99px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 669px;
+    top: 240px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #37C1FF;    
+}
+
+.box3 h4 {
+    border-radius: 50%;
+    width: 99px;
+    height: 99px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 240px;
+    left: 1098px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #37C1FF;    
+}
+
+.box1-text-container  {
+    position: absolute;
+    height: 274px;
+    width: 295px;
+    left: 142px;
+    top: 301px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.box2-text-container  {
+    position: absolute;
+    height: 274px;
+    width: 295px;
+    top: 301px;
+    left: 571px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.box3-text-container  {
+    position: absolute;
+    height: 274px;
+    width: 295px;
+    top: 301px;
+    left: 1000px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.btn-3 {
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    left: 618px;
+    top: 588px;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.1);
+    border: 3px solid white;
+
+}
+
+.contact-me-container {
+    position: absolute;
+    top: 2176px;
+    width: 100%;
+    height: 1000px;
+    
+}
+
+.contact-me-container h4 {
+    height: 56px;
+    position: absolute;
+    left: 596px;
+    top: 134px;
+
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.contact-me-container p {
+    height: 108px;
+    position: absolute;
+    width: 636px;
+    left: 426px;
+    top: 194px;
+
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+form {
+    position: absolute;
+    top: 320px;
+    height: 600px;
+    width: 100%;
+
+}
+
+#name {
+    position: absolute;
+    width: 445px;
+    height: 67px;
+    left: 254px;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+ ::placeholder {
+    position: absolute;
+    width: 69px;
+    height: 30px;
+    left: 283px;
+    top: 2550px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#name ::placeholder {
+    color: red;
+}
+
+#email {
+    position: absolute;
+    width: 445px;
+    height: 67px;
+    left: 768px;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+
+}
+
+#message {
+    position: absolute;
+    width: 959px;
+    height: 279px;
+    left: 254px;
+    top: 100px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+
+}
+
+#submit {
+    position: absolute;
+    height: 60px;
+    width: 445px;
+    left: 497px;
+    top: 460px;
+    border-radius: 0px;
+    background: #000000;
+    color: rgb(253, 253, 253);
+
+}
+
+.vector2-container {
+    background-image: url('../images/Vector\ 3.png');
+    background-image: url(../images/Vector\ 3.png);
+    position: absolute;
+    background-position: center;
+    height: 587px;
+    width: 100%;
+    left: 0px;
+    top: 3140px;
+    border-radius: 0px;
+
+}
+
+.vector2-container h1 {
+    position: absolute;
+    left: 9.42%;
+    right: 80.75%;
+    top: 33.22%;
+    bottom: 57.24%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.vector2-container p {
+    position: absolute;
+    left: 9.42%;
+    right: 66.27%;
+    top: 39.01%;
+    bottom: 26.06%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.vector2-box2 h1{
+    position: absolute;
+    width: 300px;
+    left: 63.78%;
+    right: 17.38%;
+    top: 33.22%;
+    bottom: 57.24%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vector2-box2 p {
+    position: absolute;
+    left: 63.78%;
+    right: 15.72%;
+    top: 41.06%;
+    bottom: 40.37%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 138.7%;
+    /* or 25px */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1024px){
+    .web-app {
+        display: grid;
+        width: 1024px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
